@@ -1,4 +1,3 @@
-import 'package:deine_job/helpers/arrow_painter.dart';
 import 'package:deine_job/helpers/color_palette.dart';
 import 'package:deine_job/helpers/custom_texts.dart';
 import 'package:deine_job/helpers/waveclipper.dart';
@@ -438,10 +437,6 @@ class HomepageState extends State<Homepage> with SingleTickerProviderStateMixin 
                                 Image.asset(getAsset1())
                               ],
                             ),
-                          ),
-                          CustomPaint(
-                            size: Size(MediaQuery.of(context).size.width, 100),
-                            painter: ArrowPainter(),
                           ),
                           // item 2
                           Stack(

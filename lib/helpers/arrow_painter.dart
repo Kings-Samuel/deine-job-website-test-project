@@ -16,7 +16,7 @@ class ArrowPainter extends CustomPainter {
     {
       Path path = Path();
       path.moveTo(40, 0);
-      path.relativeCubicTo(0, 0, size.height * 0.25, 50, size.height * 0.5, 0);
+      path.relativeCubicTo(50, 50, size.height * 0.25, 50, size.height * 0.5, 0);
       path = ArrowPath.make(path: path);
       canvas.drawPath(path, paint..color = Colors.blue);
     }
